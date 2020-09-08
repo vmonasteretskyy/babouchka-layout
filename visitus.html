@@ -20,11 +20,14 @@
             <div class="row">
                 <div class="header__leftsect">
                     <div class="header__phone">
-                        <a href="tel:777777"><img src="img/phone-icon.svg" alt="phone"></a>
+                        <a href="tel:+0213122020"><img src="img/phone-icon.svg" alt="phone"></a>
                     </div>
                     <div class="header__burger">
-                        <img class="burgericon" src="img/burger.svg" alt="menu">
-                        <img class="closemenu" src="img/close-menu.svg" alt="close menu">
+                        <!-- <img class="burgericon" src="img/burger.svg" alt="menu">
+                        <img class="closemenu" src="img/close-menu.svg" alt="close menu"> -->
+                        <div class="header-icon header-icon-hamburger" id="hamburger">
+                            <span></span><span></span><span></span>
+                        </div>
                     </div>
                 </div>
                 <div class="header__centersect">
@@ -70,12 +73,12 @@
                         </ul>
                     </div>
                     <div class="header__deskphone">
-                        <a href="tel:+41 5545464040">+021 312 20 20</a>
+                        <a href="tel:+0213122020">+021 312 20 20</a>
                     </div>
                     <div class="header__lang">
                         <ul>
-                            <li class="active"><a href="#">Fr</a></li>
-                            <li><a href="#">Eng</a></li>
+                            <li class="active"><a href="#">FR</a></li>
+                            <li><a href="#">EN</a></li>
                         </ul>
                     </div>
                 </div>
@@ -86,33 +89,36 @@
 <main>
     <section class="visitinf">
         <div class="container">
-            <h1>Visit Us</h1>
-            <p class="descr">Visit <span class="yellow-text">Babouchka</span> regularly and you will need to click here
-                to recall where <span class="yellow-text">Babouchka</span> lives
-            </p>
+            <h1>Visit Babouchka</h1>
+            <p class="vworktime-title">Work Time</p>
+            <ul class="vworktime-list">
+                <li>09:00 - 11:00: Breakfast</li>
+                <li>11:00 - 15:00: Lunch</li>
+                <li>18:00 - 22:00: Dinner</li>
+            </ul>
         </div>
         <div class="visitslide-wrap">
             <div class="container">
                 <div class="swiper-containerv">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
-                            <div class="visslidewrap">
+                            <div class="visslidewrap" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
                                 <img src="img/visitslidedesk1.jpg" alt="slide">
                             </div>
                         </div>
                         <div class="swiper-slide">
-                            <div class="visslidewrap">
+                            <div class="visslidewrap" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
                                 <img src="img/visitslidedesk2.jpg" alt="slide">
                                 <a href="#" target="_blank" class="googlelink"><span>Open Google Map</span></a>
                             </div>
                         </div>
                         <div class="swiper-slide">
-                            <div class="visslidewrap">
+                            <div class="visslidewrap" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
                                 <img src="img/visitslidedesk3.jpg" alt="slide">
                             </div>
                         </div>
                         <div class="swiper-slide">
-                            <div class="visslidewrap">
+                            <div class="visslidewrap" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
                                 <img src="img/visitslidedesk1.jpg" alt="slide">
                             </div>
                         </div>
@@ -141,17 +147,7 @@
         </div>
     </section>
 
-    <section class="googlemap">
-        <div class="container">
-            <p class="title">
-                Google Map knows <span class="yellow-text">Babouchka</span> very well
-            </p>
-        </div>
-        <a href="#" target="_blank" class="mappiclink">
-            <img class="mobmappic" src="img/maps.jpg" alt="map">
-            <img class="desckmappic" src="img/mapdesk.jpg" alt="map">
-        </a>
-    </section>
+
 
 </main>
 

@@ -20,11 +20,14 @@
             <div class="row">
                 <div class="header__leftsect">
                     <div class="header__phone">
-                        <a href="tel:777777"><img src="img/phone-icon.svg" alt="phone"></a>
+                        <a href="tel:+0213122020"><img src="img/phone-icon.svg" alt="phone"></a>
                     </div>
                     <div class="header__burger">
-                        <img class="burgericon" src="img/burger.svg" alt="menu">
-                        <img class="closemenu" src="img/close-menu.svg" alt="close menu">
+                        <!-- <img class="burgericon" src="img/burger.svg" alt="menu">
+                        <img class="closemenu" src="img/close-menu.svg" alt="close menu"> -->
+                        <div class="header-icon header-icon-hamburger" id="hamburger">
+                            <span></span><span></span><span></span>
+                        </div>
                     </div>
                 </div>
                 <div class="header__centersect">
@@ -70,12 +73,12 @@
                         </ul>
                     </div>
                     <div class="header__deskphone">
-                        <a href="tel:+41 5545464040">+021 312 20 20</a>
+                        <a href="tel:+0213122020">+021 312 20 20</a>
                     </div>
                     <div class="header__lang">
                         <ul>
-                            <li class="active"><a href="#">Fr</a></li>
-                            <li><a href="#">Eng</a></li>
+                            <li class="active"><a href="#">FR</a></li>
+                            <li><a href="#">EN</a></li>
                         </ul>
                     </div>
                 </div>
@@ -91,7 +94,7 @@
 
             <div class="concept__topsect-pagetitle">
                 <p>
-                    Homemade<br> Food<br> Always Fresh<br> and Delicious
+                    Homemade<br> Cuisine<br> Always Fresh<br> and Delicious
                 </p>
             </div>
             <div class="concept__topsectinfo">
@@ -115,6 +118,13 @@
                         homemade food from Swiss ingredients served in a eco-friendly (recyclable) packaging.
                     </p>
                 </div>
+                <div class="learnmore-text">
+                    <p>
+                        <span class="lm">Learn more</span>
+                        <span class="sl">Show less</span>
+
+                    </p>
+                </div>
             </div>
         </div>
     </section>
@@ -124,13 +134,13 @@
             <p class="cval__title"><span class="yellow-text">Babouchka's</span><br> values</p>
             <div class="row">
                 <div class="col-12 col-md-4">
-                    <div class="cval__box">
+                    <div class="cval__box" data-aos="fade-up" data-aos-delay="100">
                         <div class="cval__boxpic">
                             <img src="img/val1.svg" alt="icon">
                         </div>
                         <div class="cval__boxinfo">
                             <div class="cval__boxdescr">
-                                <p class="title">Home Made</p>
+                                <p class="title">Homemade cuisine with a grandma's love</p>
                                 <span class="clickhere">click here</span>
                                 <p class="descr">
                                     Always Fresh. Great Taste
@@ -140,13 +150,13 @@
                     </div>
                 </div>
                 <div class="col-12 col-md-4">
-                    <div class="cval__box">
+                    <div class="cval__box" data-aos="fade-up" data-aos-delay="300">
                         <div class="cval__boxpic">
                             <img src="img/val2.svg" alt="icon">
                         </div>
                         <div class="cval__boxinfo">
                             <div class="cval__boxdescr">
-                                <p class="title">Eco-friendly packaging</p>
+                                <p class="title">Eco-Friendly</p>
                                 <span class="clickhere">click here</span>
                                 <p class="descr">
                                     Babouchka uses recyclable packaging and respects environment within the cooking
@@ -157,7 +167,7 @@
                     </div>
                 </div>
                 <div class="col-12 col-md-4">
-                    <div class="cval__box">
+                    <div class="cval__box" data-aos="fade-up" data-aos-delay="500">
                         <div class="cval__boxpic">
                             <img src="img/val3.svg" alt="icon">
                         </div>
@@ -173,7 +183,7 @@
                     </div>
                 </div>
                 <div class="col-12 col-md-6">
-                    <div class="cval__box">
+                    <div class="cval__box" data-aos="fade-up" data-aos-delay="100">
                         <div class="cval__boxpic">
                             <img src="img/val4.svg" alt="icon">
                         </div>
@@ -191,7 +201,7 @@
                     </div>
                 </div>
                 <div class="col-12 col-md-6">
-                    <div class="cval__box">
+                    <div class="cval__box" data-aos="fade-up" data-aos-delay="300">
                         <div class="cval__boxpic">
                             <img src="img/val5.svg" alt="icon">
                         </div>
@@ -202,9 +212,9 @@
                                 <p class="descr">
                                     All Babouchka's clients are a part of Babouchka's family. Babouchka cares about all
                                     with the special attention and respect. Babouchka appriciates your patience if you
-                                    have to wait your order... Babouchka cooks just homemade food and please respect her
-                                    "age" :-) And Babouchka does not sell alcohol... Becouse it's Babouchka - not a
-                                    grandpa :-)
+                                    have to wait your order... Babouchka cooks just homemade food and it might take some
+                                    time. Hence, please respect her "age" :-) And Babouchka does not sell alcohol...
+                                    Becouse it's Babouchka - not a grandpa :-)
                                 </p>
                             </div>
                         </div>
@@ -221,16 +231,16 @@
         <div class="container">
             <div class="weare__wrap">
                 <p class="title">We are...</p>
-                <div class="weare__box yellow-box">
+                <div class="weare__box yellow-box" data-aos="fade-up" data-aos-delay="200">
                     <p class="weare__boxtitle">Family Oriented</p>
                     <p class="weare__boxdescr">It’s a family oriented fast-food and don’t sell alcohol.</p>
                 </div>
-                <div class="weare__box green-box">
+                <div class="weare__box green-box" data-aos="fade-up" data-aos-delay="200">
                     <p class="weare__boxtitle">Eco-Friendly</p>
                     <p class="weare__boxdescr">We use only eco-friendly recycable packaging and respect all rules to
                         care about enviroment</p>
                 </div>
-                <div class="weare__box blue-box">
+                <div class="weare__box blue-box" data-aos="fade-up" data-aos-delay="200">
                     <p class="weare__boxtitle">International</p>
                     <p class="weare__boxdescr">We are going to partner only with local suppliers and use Swiss
                         ingridients.</p>
